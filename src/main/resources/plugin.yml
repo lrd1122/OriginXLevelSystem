@@ -1,0 +1,12 @@
+name: OriginXLevelSystem
+version: '${version}'
+main: gx.lrd1122.OriginXLevelSystem.OriginXLevelSystem
+authors: [lrd1122]
+softdepend:
+  - PlaceholderAPI
+  - AttributePlus
+  - SX-Attribute
+  - MythicMobs
+commands:
+  OriginXLevelSystem:
+    aliases: oxls

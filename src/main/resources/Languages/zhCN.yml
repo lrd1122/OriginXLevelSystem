@@ -1,0 +1,20 @@
+Commands:
+  help:
+    - "&a================OriginXLevelSystem================"
+    - "&a==> &b/oxls help &c查看帮助 &doxls.help"
+    - "&a==> &b/oxls addExp <经验> (玩家) &c增加玩家的Exp值 &doxls.addExp"
+    - "&a==> &b/oxls reduceExp <经验> (玩家) &c减少玩家的Exp值 &doxls.reduceExp"
+    - "&a==> &b/oxls setgroup <玩家> <等级组> &c减少玩家的Exp值 &doxls.setgroup"
+    - "&a==> &b/oxls generateExp <经验> (玩家) &c在目标位置生成指定数值的经验球 &doxls.generateExp"
+    - "&a==> &b/oxls calculate (玩家) &c强制重新计算玩家等级 &doxls.calculate"
+    - "&a==> &b/oxls reload &c重载插件 &doxls.reload"
+  getInfo:
+    - "玩家 %name%"
+    - "等级: %OriginXLevelSystem_level_%name%_level%"
+    - "经验值: %OriginXLevelSystem_level_%name%_exp%"
+    - "全部经验值: %OriginXLevelSystem_level_%name%_totalexp%"
+    - "所在组: %OriginXLevelSystem_level_%name%_group%"
+Errors:
+  MissingArgs: "缺少参数"
+  InputError: "参数错误"
+  UnknownGroup: "未知的组"

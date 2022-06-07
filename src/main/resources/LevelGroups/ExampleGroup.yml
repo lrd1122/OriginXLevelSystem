@@ -1,0 +1,28 @@
+Example1:
+  Group: default
+  ReplaceOrigin: true
+  DefaultPickUp: true
+  ExpMultiply: 1
+  LevelSettings:
+    1-2: "10 * $level$"
+    3: "100(Permission=perm1)"
+  AttributeSettings:
+    1-2:
+      - "攻击力: 100"
+    3:
+      - "攻击力: 50"
+      - "生命值: 23333"
+Example2:
+  Group: vip
+  ReplaceOrigin: true
+  DefaultPickUp: true
+  ExpMultiply: 3
+  LevelSettings:
+    1-2: "1 * $level$"
+    3: "10(Permission=perm1)"
+  AttributeSettings:
+    1-2:
+      - "攻击力: 10000"
+    3:
+      - "攻击力: 5000"
+      - "生命值: 2333333"

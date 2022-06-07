@@ -1,0 +1,13 @@
+Prefix: "OriginXLevelSystem"
+Storage: YAML
+AttributePlugin:
+  SXAttribute: false
+  AttributePlus: false
+Mysql:
+  Host: "127.0.0.1"
+  Port: "3306"
+  User: "lrd1122"
+  Password: "OriginX"
+  Database: "OriginXLevelSystem"
+  useSSL: true
+  Class: "com.mysql.jdbc.Driver"
